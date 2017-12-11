@@ -27,4 +27,17 @@ body{
 }
 .right-column{
   background: #f7f7f7;
+  overflow: auto;
+  width: 30%;
+  float: left;
+  padding: 20px;
+}
+.left-column {
+  overflow: auto;
+  width: 70%;
+  float: left;
+  padding: 20px;
+}
+@media (min-width: 600px){
+  only left-column and right-column
 }
