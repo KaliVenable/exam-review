@@ -6,38 +6,34 @@ h1{
 h4{
   text-transform: uppercase;
   border-bottom: 2px solid black;
+  padding-bottom: 30px;
 }
 h2{
   border-bottom: 2px solid black;
 }
-h4{
-  margin-bottom: 30px;
-}
-body{
-  background: gray;
-}
-.container{
+.container {
   max-width: 800px;
   margin: 0 auto;
-  background: white;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.right-column{
-  background: #f7f7f7;
+  background-color: white;
+  padding: 10px;
   overflow: auto;
+}
+body {
+  background-color: #A9A9A9;
+}
+@media (min-width: 600px) {
+.right-column {
+  float: right;
   width: 30%;
-  float: left;
-  padding: 20px;
+  background-color: #f7f7f7;
+  padding: 5px;
 }
 .left-column {
-  overflow: auto;
-  width: 70%;
   float: left;
-  padding: 20px;
+  width: 70%;
+  padding: 5px;
 }
-@media (min-width: 600px){
-  only left-column and right-column
+}
+.border {
+  border: solid;
 }
