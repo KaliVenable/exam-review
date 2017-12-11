@@ -1,0 +1,15 @@
+*{box-sizing: border-box;}
+h1{
+  font-size: 110%;
+  font-weight: bold;
+}
+h4{
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+}
+h2{
+  border-bottom: 2px solid black;
+}
+h4{
+  margin-bottom: 30px;
+}
